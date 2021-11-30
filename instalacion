@@ -1,0 +1,34 @@
+
+Comandos Integrante 2: Juan:
+
+
+Comandos para subir el fichero model.php al github
+
+git init -> Iniciamos el inspector
+git remote add origin https://github.com/javiergr2001/GRUPO2DAW21 -> añadimos una conexion con el repositorio github del compañero
+git remote -v -> Para ver las conexiones abieras
+git pull origin master -> Nos traemos todo el proyecto del github a local
+git status -> vemos el estado y vemos que el archivo que tengo que añadir no esta añadido
+git add app/Model.php -> añadimos el inspector al fichero nuevo metido
+git commit -m "Commit juan model.php" -> hacemos un commit para reflejar lo que he hecho
+git push origin master -> subiomos a la rama master del github todo lo nuevo echo por mi
+
+
+
+Comandos para subir el proyecto del hitbub al cdmon con SSH
+
+Me conecto con SSH:
+-> ssh juanbrav@ssh.juanbravo.es.mialias.net
+
+nos desplazamos mediante cd .. a la carpeta web
+
+creamos en el directorio web la carpeta:
+ -> mkdir GRUPO2DAW21 
+
+Hacemos un  -> git init
+
+Establecemos la conexion con el github:
+-> remote add origin http://github.com/javiergr2001/GRUPO2DAW21
+
+Nos descargamos todo del github al cdmon:
+ ->git pull origin master
